@@ -32,7 +32,7 @@ namespace CKK.Logic.Models
             return _product;
         }
 
-        public void GetProduct(Product product)
+        public void Product(Product product)
         {
             _product = product;
         }

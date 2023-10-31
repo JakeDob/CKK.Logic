@@ -9,22 +9,22 @@ namespace CKK.Logic.Models
     internal class ShoppingCartItem
     {
         private Product _product;
-        private int _quantity;
+        private int Quantity;
 
         public ShoppingCartItem(Product product, int quantity)
         {
             _product = product;
-            _quantity = quantity;
+            Quantity = quantity;
         }
 
         public int GetQuantity()
         {
-            return _quantity;
+            return Quantity;
         }
 
         public void SetQuantity(int quantity)
         {
-            _quantity = quantity;
+            Quantity = quantity;
         }
 
         public Product GetProduct()

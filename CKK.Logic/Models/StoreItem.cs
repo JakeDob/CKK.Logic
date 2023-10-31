@@ -8,33 +8,33 @@ namespace CKK.Logic.Models
 {
     internal class StoreItem
     {
-        private Product siproduct;
-        private int _quantity;
+        private Product _product;
+        private int Quantity;
 
-        public StoreItem(Product Siproduct, int quantity)
+        public StoreItem(Product _Product, int quantity)
         {
-            siproduct = Siproduct;
-            _quantity = quantity;
+            _product = _Product;
+            Quantity = quantity;
         }
 
         public int GetQuantity()
         {
-            return _quantity;
+            return Quantity;
         }
 
         public void SetQuantity(int quantity)
         {
-            _quantity = quantity;
+            Quantity = quantity;
         }
 
         public Product GetProduct()
         {
-            return siproduct;
+            return _product;
         }
 
         public void SetProduct(Product product)
         {
-            siproduct = product;
+            _product = product;
         }
     }
 }

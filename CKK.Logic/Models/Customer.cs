@@ -6,18 +6,12 @@ using System.Threading.Tasks;
 
 namespace CKK.Logic.Models
 {
-    internal class Customer
+    public class Customer
     {
         private int Id;
         private string Name;
         private string Address;
 
-        public Customer(int id, string name, string address)
-        {
-            Id = id;
-            Name = name;
-            Address = address;
-        }
 
         public int GetId()
         {
